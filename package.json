@@ -1,0 +1,33 @@
+{
+  "name": "Capstone-project-Conference-page",
+  "version": "1.0.0",
+  "description": "> This is a complete version of my portfolio page project.",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint": "^13.13.1",
+    "stylelint-scss": "^3.21.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L2oukmane/Capstone-project-Conference-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L2oukmane/Capstone-project-Conference-page/issues"
+  },
+  "homepage": "https://github.com/L2oukmane/Capstone-project-Conference-page#readme"
+}
