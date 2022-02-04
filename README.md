@@ -2,8 +2,6 @@
 
 > This is a complete version of my portfolio page project.
 
-![screenshot](portfolioimgs/portfolio.png)
-
 My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Portfolio/). 🙂
 
 ## Built With
