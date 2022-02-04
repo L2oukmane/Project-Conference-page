@@ -318,3 +318,180 @@ body {
   font-size: 17px;
   align-self: center;
 }
+
+.socila-contact {
+  display: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media screen and (min-width: 767.5px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .socila-contact {
+    display: flex;
+    background-color: #434446;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    padding-right: 12%;
+  }
+
+  .socila-contact a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    gap: 45px;
+    padding-inline: 10px;
+  }
+
+  .facebook {
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .twitter {
+    height: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 15px;
+  }
+
+  .left-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 12%;
+    margin-top: 20px;
+  }
+
+  .right-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    margin-top: 20px;
+  }
+
+  .desktop-logo {
+    width: 100px;
+  }
+
+  .links {
+    text-decoration: none;
+    color: #434446;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    padding-left: 3em;
+  }
+
+  .links:hover {
+    color: #ec5242;
+  }
+
+  .links:active {
+    color: #434446;
+  }
+
+  .desktop-nav-btn {
+    padding-left: 40px;
+    cursor: pointer;
+  }
+
+  .desktop-btn {
+    border: 6px solid #ec5242;
+    background-color: #fff;
+    color: #ec5242;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-content h1 {
+    font-size: 0;
+  }
+
+  .container-content h2 {
+    font-size: 55px;
+    width: 70%;
+    align-self: center;
+  }
+
+  .container-descreption p {
+    width: 70%;
+    font-size: 17px;
+    align-self: flex-start;
+    margin-left: 12%;
+  }
+
+  .testimonials-persons {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .testimonials a {
+    font-size: 30px;
+  }
+
+  .img1 {
+    margin-top: 17px;
+    height: 100%;
+  }
+
+  .person1 {
+    top: 50%;
+    right: 0;
+  }
+
+  .person2 {
+    top: 50%;
+    left: 70%;
+  }
+
+  .main a {
+    font-size: 25px;
+  }
+
+  .main p {
+    font-size: 19px;
+  }
+
+  .footer a {
+    font-size: 25px;
+  }
+
+  .testimonials-persons img {
+    width: 40%;
+  }
+
+  .partners img {
+    width: 30%;
+    padding-left: 40%;
+  }
+
+  .copyright {
+    margin: 0 200px;
+  }
+}
