@@ -2,7 +2,7 @@
 
 > This is a complete version of my Capstone project.
 
-My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Portfolio/). 🙂
+My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Capstone-project-Conference-page/). 🙂
 
 ## Built With
 
