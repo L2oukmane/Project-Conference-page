@@ -72,8 +72,9 @@ npx eslint .
 
 ##### from parent source directory
 
-(https://zerotomastery.io/)
-Acknowledgement to the original author Andrei Neagoie
+## Acknowledgments
+
+- Thanks to Cindy Shin whose design of cc global summit 2015 was used.
 
 ## License
 
