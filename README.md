@@ -72,6 +72,9 @@ npx eslint .
 
 ##### from parent source directory
 
+(https://zerotomastery.io/)
+Acknowledgement to the original author Andrei Neagoie
+
 ## License
 
 All source code files are licensed under the permissive MIT license
