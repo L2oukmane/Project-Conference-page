@@ -327,6 +327,47 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #272a31;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  inset: 0 0 0 0;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  gap: 50px;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+
+.mobile-menu a {
+  width: 70%;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px auto;
+  text-align: center;
+}
+
+.mobile-menu a:hover {
+  color: #ec5242;
+}
+
+.mobile-menu .close-btn {
+  height: 40%;
+}
+
+#onclick-close {
+  margin-left: 70%;
+}
+
 @media screen and (min-width: 767.5px) {
   .mobile-nav {
     display: none;

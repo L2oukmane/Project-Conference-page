@@ -13,7 +13,7 @@
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container"  id="About">
 		<nav id="socila-contact" class="socila-contact">
 			<a href="#socila-contact">
 				<img class="facebook" src="imgs/facebook.svg" alt="facebook">
@@ -43,7 +43,19 @@
 			</div>
 		 </nav>
       <nav class="mobile-nav">
-      	<a href="#" ><img class="menu-icon" src="imgs/menuIcon.svg" alt="menu icon"></a>
+		<a id="onclick-open" href="javascript:void(0);" >
+			<img class="menu-icon" src="imgs/menuIcon.svg" alt="menu icon">
+		  </a>
+		<div class="mobile-menu">
+		  <a id="onclick-close" href="javascript:void(0);">
+			  <img class="close-btn" id="closeImg" src="imgs/close.svg" alt="closeButton">
+			</a>
+	   <a id="onclick-about" href="about.html">About</a>
+	   <a id="onclick-program" href="#">Program</a>
+	   <a id="onclick-join" href="#">Join</a>
+	   <a id="onclick-partners" href="#">Partners</a>
+	   <a id="onclick-news" href="#">News</a>
+	  </div>
       </nav>
         <div class="container-content">
       		<h1>"Zero to Mastery!"</h1>
@@ -98,5 +110,6 @@
 			<img src="imgs/logo.png" alt="logo">
      <p>Copyright © 2021, Zero To Mastery Inc.</p>
 		</section>
+		<script src="script.js"></script>
 </body>
 </html>
