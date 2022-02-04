@@ -76,7 +76,7 @@ body {
   z-index: 1;
   line-height: 1.5em;
   background-color: #fff;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .email {
@@ -101,7 +101,7 @@ body {
 .email p {
   align-self: center;
   width: 90%;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .main {
@@ -117,7 +117,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 9px;
   font-weight: bold;
   margin-bottom: 35px;
   margin-top: 25px;
@@ -144,7 +144,7 @@ body {
   font-size: 15px;
   align-self: center;
   margin-bottom: 25px;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .main img {
@@ -165,7 +165,7 @@ body {
   text-decoration: none;
   color: #272a31;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 9px;
   font-weight: bold;
   margin-bottom: 35px;
   margin-top: 25px;
@@ -192,7 +192,7 @@ body {
   font-size: 17px;
   align-self: center;
   margin-bottom: 25px;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .testimonials-persons {
@@ -310,7 +310,7 @@ body {
   height: 20%;
 }
 
-.copyright p {
+.copyright h2 {
   width: 100%;
   font-family: "Lato", sans-serif;
   color: #5a5a5cfa;
@@ -352,7 +352,6 @@ body {
   width: 70%;
   text-decoration: none;
   color: #fff;
-  padding: 10px auto;
   text-align: center;
 }
 
@@ -519,7 +518,7 @@ body {
     font-size: 19px;
   }
 
-  .footer a {
+  .footer > h2 > a {
     font-size: 25px;
   }
 

@@ -1,6 +1,6 @@
-# Personalportfolio for module-1
+# Cpastone Project for module-1
 
-> This is a complete version of my portfolio page project.
+> This is a complete version of my Capstone project.
 
 My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Portfolio/). 🙂
 
@@ -25,7 +25,7 @@ The basic requirements for building the executable are:
 #### Cloning the project
 
 ```
-git clone  https://github.com/L2oukmane/Portfolio <Your-Build-Directory>
+git clone  https://github.com/L2oukmane/Capstone-project-Conference-page <Your-Build-Directory>
 ```
 
 ## Getting packages and debuging with Stylelint

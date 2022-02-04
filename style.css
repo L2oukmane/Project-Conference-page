@@ -77,7 +77,7 @@ body {
   font-weight: normal;
 }
 
-.language:before {
+.language::before {
   content: url("imgs/language.svg");
   height: 10px;
   width: 37px;
@@ -86,14 +86,13 @@ body {
 
 .update {
   font-size: 22px;
-  font-weight: normal;
   font-family: "cocogoose", sans-serif;
   color: #5a5a5cfa;
   font-weight: normal;
   text-align: center;
 }
 
-.update:before {
+.update::before {
   content: url("imgs/update.svg");
   height: 30px;
   width: 37px;
@@ -128,14 +127,13 @@ body {
   color: #5a5a5cfa;
   font-size: 20px;
   font-family: "lato", sans-serif;
-  font-weight: 150px;
 }
 
 .subtitles h3 {
   margin-top: 0;
 }
 
-.subtitles h3:before {
+.subtitles h3::before {
   content: url("imgs/translate.svg");
   margin-right: 10px;
 }
@@ -292,6 +290,7 @@ body {
   margin-top: 25px;
   align-self: center;
   padding-bottom: 10px;
+  height: 90px;
 }
 
 .link2::after {
@@ -386,6 +385,7 @@ body {
   bottom: 0;
   left: 35%;
 }
+
 .partners {
   display: flex;
   list-style: none;
@@ -412,7 +412,7 @@ body {
   height: 20%;
 }
 
-.copyright p {
+.copyright h4 {
   width: 100%;
   font-family: "Lato", sans-serif;
   color: #5a5a5cfa;
@@ -458,7 +458,6 @@ body {
   width: 70%;
   text-decoration: none;
   color: #fff;
-  padding: 10px auto;
   text-align: center;
 }
 
@@ -681,6 +680,12 @@ body {
     cursor: pointer;
   }
 
+  .instructorsList {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
   .instructors-descreption {
     flex-direction: column;
     margin-bottom: 50px;
@@ -699,20 +704,6 @@ body {
   .right-sect {
     width: 100%;
     margin: 0;
-  }
-
-  #first2persons {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin: 0 auto;
-  }
-
-  #second2persons {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    margin: 0 auto;
   }
 
   .partners {
