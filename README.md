@@ -1,6 +1,6 @@
 # Cpastone Project for module-1
 
-> This is a complete version of my Capstone project.
+> This is a complete version of my Capstone project (Web Development Course Website) - Module1.
 
 My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Capstone-project-Conference-page/). 🙂
 
@@ -69,8 +69,6 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 npx eslint .
 
 ```
-
-##### from parent source directory
 
 ## Acknowledgments
 

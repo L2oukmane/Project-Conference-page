@@ -117,7 +117,6 @@ body {
   text-decoration: none;
   display: inline-block;
   font-family: "Lato", sans-serif;
-  font-size: 9px;
   font-weight: bold;
   margin-bottom: 35px;
   margin-top: 25px;
@@ -150,6 +149,7 @@ body {
 .main img {
   border: 1px solid #cacacec0;
   margin-bottom: 40px;
+  width: 50%;
 }
 
 .testimonials {
@@ -165,7 +165,6 @@ body {
   text-decoration: none;
   color: #272a31;
   font-family: "Lato", sans-serif;
-  font-size: 9px;
   font-weight: bold;
   margin-bottom: 35px;
   margin-top: 25px;
@@ -342,7 +341,7 @@ body {
   overflow: hidden;
   position: fixed;
   height: 100%;
-  gap: 50px;
+  gap: 16px;
   backdrop-filter: blur(10px);
   mix-blend-mode: multiply;
   z-index: 2;
