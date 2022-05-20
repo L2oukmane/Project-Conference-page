@@ -2,7 +2,7 @@
 
 > This is a complete version of my Capstone project (Web Development Course Website) - Module1.
 
-My goal here is to Build a personal portfolio site from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Project-Conference-page/). 🙂
+My goal here is to Build a Conference Page from scratch, focusing on building the mobile version first. take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Project-Conference-page/). 🙂
 
 ## Built With
 
